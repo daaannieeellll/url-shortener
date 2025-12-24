@@ -6,6 +6,16 @@
 	"observability": {
 		"enabled": true
 	},
+	"routes": [
+		{
+			"pattern": "dkpr.nl",
+			"custom_domain": true
+		},
+		{
+			"pattern": "www.dkpr.nl",
+			"custom_domain": true
+		}
+	],
 	"kv_namespaces": [
 		{
 			"binding": "REDIRECTS",
