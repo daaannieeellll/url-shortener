@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "url-shortener",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-12-23",
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "REDIRECTS",
+			"id": "189357d8f4774532855dfb1b86aec12b"
+		}
+	]
+}
